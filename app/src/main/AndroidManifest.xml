@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zvox.rushilkhattar.a3playertictactoe">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.SecondActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.ThirdActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.FourthActivity"
+            android:label="3playertictactoe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.FifthActivity"
+            android:label="3playertictactoe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.SixthActivity"
+            android:label="3playertictactoe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.HowtoPlay"
+            android:label="3playertictactoe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zvox.rushilkhattar.a3playertictactoe.HomePage2"
+            android:label="3playertictactoe"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e23aca0331010ed45371d59b16bac2195199e5e4" />
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kash">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/zvox" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+
+
+        android:layout_marginTop="1dp"
+        android:background="@drawable/abc" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:layout_alignLeft="@+id/button4"
+
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abc2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/abc3" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginVertical="40dp"
+        android:background="@drawable/hahaha"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom"
+        android:paddingBottom="100dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
